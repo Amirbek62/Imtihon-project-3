@@ -1,0 +1,858 @@
+footer {
+  margin-top: 160px;
+  border-radius: 8px;
+  background: var(--other-navy, #021934);
+}
+footer .footer-box {
+  padding: 40px 80px;
+  display: flex;
+  gap: 85px;
+}
+footer .footer-box .footer-contentbir {
+  max-width: 500px;
+}
+footer .footer-box .footer-contentbir img {
+  margin-top: 80px;
+}
+footer .footer-box .footer-contentbir p {
+  margin-top: 36px;
+  color: var(--text-white, #fff);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+}
+footer .footer-box .footer-contentbir .par1f {
+  margin-top: 139px;
+  display: flex;
+  gap: 40px;
+}
+footer .footer-box .footer-contentbir .par1f p {
+  color: var(--text-white, #fff);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+}
+footer .footer-box .foterc-ikki .link-box {
+  display: flex;
+  gap: 85px;
+}
+footer .footer-box .foterc-ikki .link-box .footer-contentikki {
+  max-width: 142px;
+  margin-top: 80px;
+}
+footer .footer-box .foterc-ikki .link-box .footer-contentikki p a {
+  margin-bottom: 24px;
+  color: var(--text-white, #fff);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+}
+footer .footer-box .foterc-ikki .link-box .footer-contentikki .about-par {
+  margin-top: 24px;
+}
+footer .footer-box .foterc-ikki .link-box .footer-contentikki .about-par a {
+  flex-wrap: wrap;
+  margin-top: 8px;
+  color: var(--text-white, #fff);
+  font-family: Montserrat SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+footer .footer-box .foterc-ikki .fc2 {
+  margin-top: 130px;
+}
+footer .footer-box .foterc-ikki .fc2 p {
+  color: var(--text-white, #fff);
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1340px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  font-family: poppins;
+  font-size: 16px;
+  background: #fff;
+  padding: 36px 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 120px;
+  text-align: center;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar .input {
+  padding-left: 24px;
+}
+header .navbar .input #search {
+  width: 443px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--text-in-field, #ccc);
+}
+header .navbar .input #search ::-moz-placeholder {
+  margin-left: 16px;
+  color: #808080;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+header .navbar .input #search ::placeholder {
+  margin-left: 16px;
+  color: #808080;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+header .navbar .nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .navbar .nav-items .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+header .navbar .nav-items .item .tugma {
+  display: flex;
+  gap: 16px;
+}
+header .navbar .nav-items .item .tugma button {
+  cursor: pointer;
+  width: 132px;
+  height: 48px;
+  gap: 16px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+header .navbar .nav-items .item .tugma button :hover {
+  background-color: #f72585;
+  border-color: #f72585;
+  border-radius: 8px;
+  color: #fff;
+}
+header .navbar .nav-items .item .tugma button :hover .button-text {
+  color: #1c3554;
+}
+header .navbar .nav-items .item .tugma .button-text {
+  padding: 8px 32px;
+  color: var(--text-tittle, #1c3554);
+  font-family: Montserrat SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+
+.topnav {
+  display: none;
+}
+
+@media (max-width: 1340px) {
+  main {
+    justify-content: center;
+    max-width: 100%;
+  }
+}
+.home-page {
+  display: flex;
+  margin-top: 16px;
+  align-items: center;
+}
+.home-page p {
+  color: var(--text-body, #808080);
+  font-family: Montserrat SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+
+.container {
+  max-width: 1340px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+button {
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+main {
+  margin-top: 120px;
+  background: #fff;
+}
+main .coursebox-bir {
+  padding: 0 40px;
+  background: var(--other-navy, #021934);
+  font-size: 16px;
+}
+main .coursebox-bir .containertab {
+  display: flex;
+  gap: 56px;
+  flex-wrap: wrap;
+}
+main .coursebox-bir .containertab .section1 {
+  padding: 88px 0 90px 64px;
+}
+main .coursebox-bir .containertab .section1 b {
+  max-width: 510px;
+  color: var(--text-white, #fff);
+  font-family: Rubik;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px; /* 137.5% */
+}
+main .coursebox-bir .containertab .section1 p {
+  margin-top: 24px;
+  max-width: 647px;
+  color: var(--text-white, #fff);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+}
+main .coursebox-bir .containertab .section1 .cearchdiv {
+  display: flex;
+  margin-top: 66px;
+  width: 610px;
+  height: 80px;
+  padding: 12px 16px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 8px;
+  background: var(--text-white, #fff);
+}
+main .coursebox-bir .containertab .section1 .cearchdiv .img-input {
+  display: flex;
+  width: 330px;
+  gap: 16px;
+}
+main .coursebox-bir .containertab .section1 .cearchdiv .img-input #id {
+  width: 290px;
+  height: 27px;
+  font-size: 16px;
+}
+main .coursebox-bir .containertab .section1 .cearchdiv button {
+  cursor: pointer;
+  width: 121px;
+  height: 56px;
+  justify-content: center;
+  border-color: #fff;
+  border-radius: 8px;
+  background: var(--primary-pink, #fff);
+}
+main .coursebox-bir .containertab .section1 .cearchdiv button :hover {
+  background-color: #f72585;
+  border-color: #f72585;
+  border-radius: 8px;
+  color: #fff;
+  transition: 0.4s;
+}
+main .coursebox-bir .containertab .section1 .cearchdiv button :hover p {
+  color: #1c3554;
+}
+main .coursebox-bir .containertab .section1 .cearchdiv button .button-text2 {
+  margin-top: 1px;
+  padding: 12px 32px;
+  color: var(--text-white, #2a2929);
+  font-family: Montserrat SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+main .coursebox-bir .containertab .section1 .uch-content {
+  margin-top: 58px;
+  display: flex;
+  gap: 48px;
+  text-align: center;
+  gap: 48px;
+}
+main .coursebox-bir .containertab .section1 .uch-content .life {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 4px;
+}
+main .coursebox-bir .containertab .section1 .uch-content .life img {
+  width: 28px;
+  height: 28px;
+}
+main .coursebox-bir .containertab .section1 .uch-content .life p {
+  margin-top: -7px;
+  color: var(--text-white, #fff);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+}
+main .coursebox-bir .containertab .section2 {
+  margin-top: 65px;
+}
+main .coursebox-bir .containertab .section2 .section2img {
+  width: 529px;
+  height: 683px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--text-disable, #e6e6e6);
+}
+main .coursebox-bir .containertab .section2 .section2img .svgbir {
+  margin-top: 47px;
+  margin-left: 47px;
+}
+main .coursebox-bir .containertab .section2 .section2img .svgikki {
+  margin-top: 190px;
+  margin-left: 440px;
+}
+main .coursebox-bir .containertab .section2 .section2img .svguch {
+  margin-top: 13px;
+  margin-left: 63px;
+}
+main .coursebox-bir .containertab .section2 .section2img .svgtort {
+  margin-top: 20px;
+  margin-left: 315px;
+}
+main .coursebox-ikki {
+  background-color: #fff;
+  background: #fff;
+  margin-top: 88px;
+  justify-content: center;
+}
+main .coursebox-ikki .b-bir {
+  text-align: center;
+}
+main .coursebox-ikki .b-bir p {
+  color: var(--text-tittle, #1c3554);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63.984px; /* 133.3% */
+}
+main .coursebox-ikki .buttons {
+  margin-top: 56px;
+  display: flex;
+  gap: 24px;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .coursebox-ikki .buttons a {
+  width: 177px;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 8px;
+  background: #fff;
+}
+main .coursebox-ikki .buttons a :hover {
+  background-color: #f72585;
+  border-radius: 8px;
+  color: #fff;
+  transition: 0.4s;
+}
+main .coursebox-ikki .buttons a p {
+  padding: 8px 32px;
+  color: var(--other-grey, #aaa);
+  font-family: Montserrat SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+main .coursebox-ikki .card-box {
+  margin-top: 32px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+main .coursebox-ikki .card-box .cards {
+  margin-top: 24px;
+  width: 295px;
+  height: 427px;
+}
+main .coursebox-ikki .card-box .cards:hover {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  border-radius: 8px;
+  transition: 0.4s;
+}
+main .coursebox-ikki .card-box .cards .card {
+  padding: 16px;
+}
+main .coursebox-ikki .card-box .cards .card .img {
+  width: 260px;
+  height: 200px;
+  background-color: #aaa;
+  border-radius: 4px;
+  justify-content: center;
+}
+main .coursebox-ikki .card-box .cards .card .butf1 {
+  width: 144px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+main .coursebox-ikki .card-box .cards .card .butf1 button {
+  margin-top: -40px;
+  margin-left: 66px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 144px;
+  height: 32px;
+  border-radius: 8px;
+  border-color: #4586d6;
+  background: var(--other-blue, #4586d6);
+}
+main .coursebox-ikki .card-box .cards .card .butf1 button p {
+  color: var(--text-white, #fff);
+  font-family: Montserrat SemiBold;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+}
+main .coursebox-ikki .card-box .cards .card b {
+  margin-top: 16px;
+  color: var(--text-tittle, #1c3554);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-transform: capitalize;
+}
+main .coursebox-ikki .card-box .cards .card p {
+  margin-top: 8px;
+  color: var(--primary-pink, #f72585);
+  font-family: Montserrat SemiBold;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+}
+main .coursebox-ikki .card-box .cards .card .star {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+main .coursebox-ikki .card-box .cards .card .star img {
+  width: 96.327px;
+  height: 16px;
+  flex-shrink: 0;
+}
+main .coursebox-ikki .card-box .cards .card .star p {
+  color: var(--text-body, #808080);
+  font-family: Montserrat SemiBold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+main .coursebox-ikki .card-box .cards .card .dols {
+  margin-top: 22px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+main .coursebox-ikki .card-box .cards .card .dols s {
+  color: var(--text-in-field, #ccc);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+}
+main .coursebox-ikki .card-box .cards .card .dols p {
+  color: var(--text-tittle, #1c3554);
+  /* Heading/Medium/H5 - 24px */
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+}
+main .coursebox-ikki .morecours {
+  margin-top: 56px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+main .coursebox-ikki .morecours button {
+  height: 60px;
+  width: 288px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: #fff;
+  border-color: #050505;
+}
+main .coursebox-ikki .morecours button:hover {
+  border-radius: 8px;
+  background-color: #f72585;
+  border-color: #f72585;
+  transition: 0.4s;
+}
+main .coursebox-ikki .morecours button:hover a {
+  color: #fff;
+}
+main .coursebox-ikki .morecours button a {
+  color: var(--text-white, #000000);
+  text-align: center;
+  font-family: Montserrat SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+main .coursebox-uch {
+  margin-top: 160px;
+  background: var(--text-white, #fff);
+}
+main .coursebox-uch p {
+  color: var(--text-tittle, #1c3554);
+  font-family: Rubik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63.984px;
+}
+main .coursebox-uch .category {
+  margin-top: 56px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+main .coursebox-uch .category .category-content {
+  width: 296px;
+  height: 350px;
+  text-align: center;
+}
+main .coursebox-uch .category .category-content .ccimg {
+  width: 296px;
+  height: 350px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  opacity: 0.5;
+  background: var(--other-overlay-50, #a5a2a2);
+}
+main .coursebox-uch .category .category-content .ccimg p {
+  padding-top: 250px;
+  color: var(--text-white, #ffffff);
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+main .coursebox-tort {
+  margin-top: 160px;
+  background-color: #fff;
+}
+main .coursebox-tort .assets {
+  display: flex;
+  gap: 16px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+main .coursebox-tort .assets .assets-content {
+  width: 296px;
+  height: 168px;
+  text-align: center;
+  background-color: #fff;
+}
+main .coursebox-tort .assets .assets-content img {
+  width: 64px;
+  height: 64px;
+}
+main .coursebox-tort .assets .assets-content .par-bir {
+  margin-top: 16px;
+  color: var(--text-tittle, #1c3554);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: capitalize;
+}
+main .coursebox-tort .assets .assets-content p {
+  margin-top: 8px;
+  color: var(--text-tittle, #1c3554);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+main .coursebox-besh {
+  margin-top: 160px;
+}
+main .coursebox-besh .contentbox-besh {
+  background: #fff;
+  display: flex;
+  gap: 56px;
+  flex-wrap: wrap;
+}
+main .coursebox-besh .contentbox-besh .cimg-besh {
+  width: 608px;
+  height: 657px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--text-in-field, #ccc);
+}
+main .coursebox-besh .contentbox-besh .cbox-besh {
+  width: 608px;
+  height: 657px;
+  margin-top: 100px;
+}
+main .coursebox-besh .contentbox-besh .cbox-besh b {
+  color: var(--text-tittle, #1c3554);
+  font-family: Rubik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63.984px;
+}
+main .coursebox-besh .contentbox-besh .cbox-besh p {
+  margin-top: 32px;
+  width: 565px;
+  color: var(--text-body, #808080);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+main .coursebox-besh .contentbox-besh .cbox-besh button {
+  margin-top: 40px;
+  display: inline-flex;
+  padding: 16px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border-color: #f72585;
+  background: var(--primary-pink, #f72585);
+}
+main .coursebox-besh .contentbox-besh .cbox-besh button a {
+  color: var(--text-white, #fff);
+  font-family: Montserrat SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+main .coursebox-olti {
+  margin-top: 160px;
+  background-color: #fff;
+}
+main .coursebox-olti .contentbox-olti {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+main .coursebox-olti .contentbox-olti .img-olti {
+  width: 338px;
+  height: 377px;
+  flex-shrink: 0;
+  background: var(--text-in-field, #ccc);
+}
+main .coursebox-olti .contentbox-olti .img-olti img {
+  margin-top: 198px;
+}
+main .coursebox-olti .contentbox-olti .ctext {
+  margin-top: 90px;
+}
+main .coursebox-olti .contentbox-olti .ctext p {
+  max-width: 672px;
+  color: var(--text-tittle, #1c3554);
+  font-family: Rubik;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 48px; /* 150% */
+}
+main .coursebox-olti .contentbox-olti .ctext b {
+  margin-top: 32px;
+  color: var(--text-tittle, #1c3554);
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+}
+main .coursebox-olti .contentbox-olti .ctext .ariftext {
+  margin-top: 8px;
+  color: var(--text-body, #808080);
+  font-family: Montserrat SemiBold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+main .coursebox-yetti {
+  padding: 160px 138px;
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  background-color: #fff;
+}
+main .coursebox-yetti .logo-content {
+  max-width: 1164px;
+  max-height: 560px;
+  justify-content: center;
+  background: #fff;
+  flex-wrap: wrap;
+}
+main .coursebox-yetti p {
+  color: var(--text-tittle, #1c3554);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63.984px; /* 133.3% */
+}
+main .coursebox-yetti .logos-box {
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 54px;
+  flex-wrap: wrap;
+}
+main .coursebox-yetti .logos-box .img-blog {
+  width: 250px;
+  height: 104px;
+  justify-content: center;
+  flex-shrink: 0;
+}
+main .coursebox-sakkiz {
+  margin-top: 160px;
+  background-color: #fff;
+  flex-wrap: wrap;
+}
+main .coursebox-sakkiz p {
+  color: var(--text-tittle, #1c3554);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63.984px;
+}
+main .coursebox-sakkiz .sakkiz-box {
+  display: flex;
+  gap: 16px;
+}
+main .coursebox-sakkiz .sakkiz-box .yetti-card {
+  margin-top: 56px;
+  width: 400px;
+  height: 518px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--text-white, #fff);
+  padding: 16px;
+}
+main .coursebox-sakkiz .sakkiz-box .yetti-card:hover {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  border-radius: 8px;
+  transition: 0.4s;
+}
+main .coursebox-sakkiz .sakkiz-box .yetti-card .img-yetti {
+  width: 368px;
+  height: 240px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--text-in-field, #a9a9a9);
+}
+main .coursebox-sakkiz .sakkiz-box .yetti-card .par-bir {
+  margin-top: 16px;
+  color: var(--text-body, #808080);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+main .coursebox-sakkiz .sakkiz-box .yetti-card .par-ikki {
+  margin-top: 16px;
+  color: var(--text-tittle, #1c3554);
+  font-variant-numeric: lining-nums proportional-nums;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+}
+main .coursebox-sakkiz .sakkiz-box .yetti-card .par-uch {
+  margin-top: 16px;
+  color: var(--text-body, #808080);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 168.75% */
+}
+main .coursebox-sakkiz .sakkiz-box .yetti-card .par-tort {
+  margin-top: 24px;
+  color: var(--primary-pink, #f72585);
+  font-family: Montserrat SemiBold;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}/*# sourceMappingURL=style.css.map */
