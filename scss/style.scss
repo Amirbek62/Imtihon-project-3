@@ -21,21 +21,25 @@ main {
   margin-top: 120px;
   background: #fff;
   .coursebox-bir {
-    // max-width: 1360px;
-    // max-height: 748px;
     padding: 0 40px;
-    // border-radius: 8px;
-    background: var(--other-navy, #021934);
+    border-radius: 8px;
     font-size: 16px;
+    justify-content: center;
+    width: 100%;
     .containertab {
       display: flex;
       gap: 56px;
       flex-wrap: wrap;
+      justify-content: center;
+      background: var(--other-navy, #021934);
+
       .section1 {
         padding: 88px 0 90px 64px;
+        widows: 100%;
 
         b {
           max-width: 510px;
+          width: 100%;
           color: var(--text-white, #fff);
           font-family: Rubik;
           font-size: 64px;
@@ -56,19 +60,22 @@ main {
         .cearchdiv {
           display: flex;
           margin-top: 66px;
-          width: 610px;
+          max-width: 610px;
+          width: 100%;
           height: 80px;
           padding: 12px 16px;
           align-items: center;
+          justify-content: center;
           justify-content: space-between;
           border-radius: 8px;
           background: var(--text-white, #fff);
           .img-input {
             display: flex;
-            width: 330px;
+            max-width: 330px;
+            width: 100%;
             gap: 16px;
             #id {
-              width: 290px;
+              max-width: 290px;
               height: 27px;
               font-size: 16px;
             }
@@ -109,6 +116,8 @@ main {
           gap: 48px;
           text-align: center;
           gap: 48px;
+          flex-wrap: wrap;
+          justify-content: center;
           .life {
             display: flex;
             align-items: center;
@@ -133,12 +142,15 @@ main {
       }
       .section2 {
         margin-top: 65px;
+        width: 100%;
+        justify-content: center;
+        max-height: 683px;
+        max-width: 529px;
         .section2img {
-          width: 529px;
-          height: 683px;
           flex-shrink: 0;
           border-radius: 8px;
           background: var(--text-disable, #e6e6e6);
+          justify-content: center;
           .svgbir {
             margin-top: 47px;
             margin-left: 47px;
@@ -167,7 +179,8 @@ main {
     background: #fff;
     margin-top: 88px;
     justify-content: center;
-  
+    width: 100%;
+
     .b-bir {
       text-align: center;
       p {
@@ -183,6 +196,7 @@ main {
     .buttons {
       margin-top: 56px;
       display: flex;
+      width: 100%;
       gap: 24px;
       text-align: center;
       justify-content: center;
@@ -216,7 +230,8 @@ main {
       display: flex;
       gap: 16px;
       flex-wrap: wrap;
-
+      justify-content: center;
+      width: 100%;
       .cards {
         margin-top: 24px;
         width: 295px;
@@ -381,8 +396,9 @@ main {
       display: flex;
       gap: 16px;
       flex-wrap: wrap;
+      justify-content: center;
       .category-content {
-        width: 296px;
+        max-width: 296px;
         height: 350px;
         text-align: center;
         .ccimg {
@@ -409,11 +425,13 @@ main {
   .coursebox-tort {
     margin-top: 160px;
     background-color: #fff;
+    justify-content: center;
     .assets {
       display: flex;
       gap: 16px;
       background-color: #fff;
       flex-wrap: wrap;
+      justify-content: center;
       .assets-content {
         width: 296px;
         height: 168px;
@@ -450,6 +468,7 @@ main {
   // 5-section****************************************************
   .coursebox-besh {
     margin-top: 160px;
+    justify-content: center;
     .contentbox-besh {
       // width: 1240px;
       // height: 657px;
@@ -457,17 +476,20 @@ main {
       display: flex;
       gap: 56px;
       flex-wrap: wrap;
+      justify-content: center;
       .cimg-besh {
-        width: 608px;
+        max-width: 608px;
+        width: 100%;
         height: 657px;
         flex-shrink: 0;
         border-radius: 8px;
         background: var(--text-in-field, #ccc);
       }
       .cbox-besh {
-        width: 608px;
+        max-width: 608px;
         height: 657px;
         margin-top: 100px;
+        width: 100%;
         b {
           color: var(--text-tittle, #1c3554);
           font-family: Rubik;
@@ -478,7 +500,7 @@ main {
         }
         p {
           margin-top: 32px;
-          width: 565px;
+          max-width: 565px;
           color: var(--text-body, #808080);
           font-family: Montserrat;
           font-size: 16px;
@@ -515,6 +537,7 @@ main {
       justify-content: center;
       gap: 48px;
       flex-wrap: wrap;
+      width: 100%;
       .img-olti {
         width: 338px;
         height: 377px;
@@ -529,6 +552,7 @@ main {
         margin-top: 90px;
         p {
           max-width: 672px;
+          width: 100%;
           color: var(--text-tittle, #1c3554);
           font-family: Rubik;
           font-size: 32px;
@@ -553,6 +577,7 @@ main {
           font-style: normal;
           font-weight: 400;
           line-height: 24px; /* 171.429% */
+          width: 100%;
         }
       }
     }
@@ -566,6 +591,7 @@ main {
     .logo-content {
       max-width: 1164px;
       max-height: 560px;
+      width: 100%;
       justify-content: center;
       background: #fff;
       flex-wrap: wrap;
@@ -598,11 +624,12 @@ main {
   }
   // yetti***********************************************
   .coursebox-sakkiz {
-    margin-top: 160px;
+    margin-top: 400px;
     // max-height: 638px;
     background-color: #fff;
     flex-wrap: wrap;
     p {
+      margin-top: 100px;
       color: var(--text-tittle, #1c3554);
       font-variant-numeric: lining-nums proportional-nums;
       font-family: Rubik;
@@ -615,7 +642,7 @@ main {
       display: flex;
       gap: 16px;
       flex-wrap: wrap;
-
+      justify-content: center;
       .yetti-card {
         margin-top: 56px;
         width: 400px;
@@ -677,4 +704,29 @@ main {
     }
   }
   // toqqiz********************************
+}
+@media (max-width: 1340px) {
+  main {
+    justify-content: center;
+    max-width: 100%;
+    .sakkiz-box {
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (max-width: 976px) {
+}
+
+@media (max-width: 500px) {
+  .section1 {
+    width: 100%;
+    b {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  // xs
 }

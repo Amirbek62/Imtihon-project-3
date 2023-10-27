@@ -31,6 +31,10 @@ header {
     align-items: center;
     .input {
       padding-left: 24px;
+      svg {
+        margin-left: -38px;
+        margin-bottom: -10px;
+      }
       #search {
         width: 443px;
         height: 48px;
@@ -94,14 +98,9 @@ header {
 .topnav {
   display: none;
 }
-@media (max-width: 1340px) {
-  main {
-    justify-content: center;
-    max-width: 100%;
-    .sakkiz-box {
-      flex-wrap: wrap;
-    }
-  }
+@media (max-width: 1260px) {
+  
+ 
 
 }
 
